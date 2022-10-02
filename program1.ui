@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>513</width>
+    <height>526</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>400</y>
+      <width>131</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="up">
+       <property name="styleSheet">
+        <string notr="true">font: 75 9pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>вверх</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="down">
+       <property name="styleSheet">
+        <string notr="true">font: 75 9pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>вниз</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QSlider" name="polzunok">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>450</y>
+      <width>160</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QDial" name="time">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>410</y>
+      <width>71</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>423</y>
+      <width>151</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 9pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Отрегулируйте скорость </string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>513</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="hares">
+    <property name="title">
+     <string>Количество зайцев</string>
+    </property>
+    <addaction name="hares1"/>
+    <addaction name="hares2"/>
+    <addaction name="hares3"/>
+    <addaction name="separator"/>
+    <addaction name="action_3"/>
+   </widget>
+   <widget class="QMenu" name="step">
+    <property name="title">
+     <string>Количество ступенек</string>
+    </property>
+    <addaction name="step2"/>
+    <addaction name="step4"/>
+    <addaction name="step6"/>
+    <addaction name="separator"/>
+    <addaction name="action"/>
+   </widget>
+   <widget class="QMenu" name="color">
+    <property name="title">
+     <string>Цвет зайца</string>
+    </property>
+    <addaction name="white"/>
+    <addaction name="yellow"/>
+    <addaction name="red"/>
+   </widget>
+   <addaction name="hares"/>
+   <addaction name="step"/>
+   <addaction name="color"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="hares1">
+   <property name="text">
+    <string>1</string>
+   </property>
+  </action>
+  <action name="hares2">
+   <property name="text">
+    <string>2</string>
+   </property>
+  </action>
+  <action name="hares3">
+   <property name="text">
+    <string>3</string>
+   </property>
+  </action>
+  <action name="step2">
+   <property name="text">
+    <string>2</string>
+   </property>
+  </action>
+  <action name="step4">
+   <property name="text">
+    <string>4</string>
+   </property>
+  </action>
+  <action name="step6">
+   <property name="text">
+    <string>6</string>
+   </property>
+  </action>
+  <action name="white">
+   <property name="text">
+    <string>белый</string>
+   </property>
+  </action>
+  <action name="yellow">
+   <property name="text">
+    <string>желтый</string>
+   </property>
+  </action>
+  <action name="red">
+   <property name="text">
+    <string>красный </string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>Ввести значение </string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>Введите значение </string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
